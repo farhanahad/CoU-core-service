@@ -1,0 +1,45 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\Admin\\Desktop\\New folder\\code\\university-management-core-service-starter\\logs\\winston\\successes\\.b641f1098b418979e6b372c8af8ec82a4882fcf3-audit.json",
+    "files": [
+        {
+            "date": 1692373352196,
+            "name": "C:\\Users\\Admin\\Desktop\\New folder\\code\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-18-08-21-success.log",
+            "hash": "ba5af88ea24b9cbe7b4b4b8198f327ae3a52c090794761790fc165a33e4cb22d"
+        },
+        {
+            "date": 1692375012896,
+            "name": "C:\\Users\\Admin\\Desktop\\New folder\\code\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-18-08-22-success.log",
+            "hash": "74f1d6a90225692361f39465862e018abdb6d4f14e3074fce291b757694a77bd"
+        },
+        {
+            "date": 1692378808179,
+            "name": "C:\\Users\\Admin\\Desktop\\New folder\\code\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-18-08-23-success.log",
+            "hash": "371a20f2e26c469a2a374602ccd9c11c9c1365e6340e630d34b5744da9ee6163"
+        },
+        {
+            "date": 1692382311483,
+            "name": "C:\\Users\\Admin\\Desktop\\New folder\\code\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-19-08-00-success.log",
+            "hash": "e71b55f184bc7d3a73b28f6d8e160138385ec1421cbb4eb1be8c92aeb967bf12"
+        },
+        {
+            "date": 1692524025068,
+            "name": "C:\\Users\\Admin\\Desktop\\New folder\\code\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-20-08-15-success.log",
+            "hash": "3bca76ea9a66dc10ae433e754cc2261b133bd3328e94d92a168fc3230ed5243f"
+        },
+        {
+            "date": 1692525691858,
+            "name": "C:\\Users\\Admin\\Desktop\\New folder\\code\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-20-08-16-success.log",
+            "hash": "1a2e7a8051aa6b2a0bf480e442418ccc5aa1a81d721d75a9e3be687880a661d4"
+        },
+        {
+            "date": 1692529237013,
+            "name": "C:\\Users\\Admin\\Desktop\\New folder\\code\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-20-08-17-success.log",
+            "hash": "d111916f273565ad3bf6448aad9ed013d57fd411591af597bbd10fb98a9be66d"
+        }
+    ],
+    "hashType": "sha256"
+}
