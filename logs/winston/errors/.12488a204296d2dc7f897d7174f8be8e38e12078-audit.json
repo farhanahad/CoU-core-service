@@ -1,0 +1,125 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\.12488a204296d2dc7f897d7174f8be8e38e12078-audit.json",
+    "files": [
+        {
+            "date": 1704266114865,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-03-01-13-error.log",
+            "hash": "b27216c710f05f35c9065573385e2699d98da7225de78d50cb4c48507b78b3b7"
+        },
+        {
+            "date": 1704285634846,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-03-01-18-error.log",
+            "hash": "03b3cf132442c6377ab55bd1d41844231eac05b38ee60072281adf281099b7b1"
+        },
+        {
+            "date": 1704307039677,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-04-01-00-error.log",
+            "hash": "574bd4b2f8bc9b10cdbad5da80ff159cce209d735f74a6b9bf9b4926d824528f"
+        },
+        {
+            "date": 1704308427267,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-04-01-01-error.log",
+            "hash": "3fa2152632ad2ee7879f73518657ae18cdce2bde94ce1ae4e44e41f0b1ea07f4"
+        },
+        {
+            "date": 1704521579624,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-06-01-12-error.log",
+            "hash": "1f726d20635d7f9d710372d41a33f7316e6186cc027e6e21c346f0a2e23d1f53"
+        },
+        {
+            "date": 1704543210098,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-06-01-18-error.log",
+            "hash": "15dea628ee521fcdf38787042b962e04de0a182df41eead056eb23c6987dea35"
+        },
+        {
+            "date": 1704547398943,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-06-01-19-error.log",
+            "hash": "bc5069c05136a74c653e1c143b72e36149091d387959b32199caa8bf0631501d"
+        },
+        {
+            "date": 1704549614709,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-06-01-20-error.log",
+            "hash": "6c119682653a67086381eefb9bbcb1dfc6017950cb103e5a6527d81d331b533e"
+        },
+        {
+            "date": 1704565019789,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-07-01-00-error.log",
+            "hash": "fb200f6c2ef7b8858535337da1ddae55032e7d734e72a91290804e0d5ebd1ff0"
+        },
+        {
+            "date": 1704568090820,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-07-01-01-error.log",
+            "hash": "02afda1b56bdb4e1e4896dc76e663d82355e793453f85a9015c08cd184b14188"
+        },
+        {
+            "date": 1704599033376,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-07-01-09-error.log",
+            "hash": "ec2be1807946eeb761b15f7e4993f6d8c03c6280b4ac5a947f71b183e4518c8c"
+        },
+        {
+            "date": 1704601039098,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-07-01-10-error.log",
+            "hash": "91850f8ab58f98c3d11e9feaa1824c4e7d1b8fa302940caf2bea19f41185c8fa"
+        },
+        {
+            "date": 1704620827866,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-07-01-15-error.log",
+            "hash": "0c1b3adf36973d80463ff9eabab3ed84ad8aeddee2271e1eef6df1142bcd4d26"
+        },
+        {
+            "date": 1704622346129,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-07-01-16-error.log",
+            "hash": "f6fd86b836eac084b975fae5d6c0026396a042c6566e850049d4316b2f8caf5b"
+        },
+        {
+            "date": 1704670743649,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-08-01-05-error.log",
+            "hash": "eb82f3d757fdaa662782e7aeefcb366d42666c5863d9494542ff07671548d546"
+        },
+        {
+            "date": 1704673362737,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-08-01-06-error.log",
+            "hash": "333b474822ece2541fe43c696f03a04e7b203ea351239e9148901797bb725e57"
+        },
+        {
+            "date": 1704682097871,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-08-01-08-error.log",
+            "hash": "b4674d27f494f28339b04aa0e2219e0f6a53360a9a0dd2214ca7e243ceef5a7b"
+        },
+        {
+            "date": 1704684525935,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-08-01-09-error.log",
+            "hash": "e60cfb518a0b8e71706c8292c1c78bbb11d6ca514e8b77db70f45a62b8a510db"
+        },
+        {
+            "date": 1704686441657,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-08-01-10-error.log",
+            "hash": "e357d21b3c5086339bfae785f518c1dec337dc4b70123a84a9a2ddbf7b242127"
+        },
+        {
+            "date": 1704711659935,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-08-01-17-error.log",
+            "hash": "fb33fe1d159a92151cace4d3b46e9df1946988da379596b489ad03593faf8e9c"
+        },
+        {
+            "date": 1704717782820,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-08-01-18-error.log",
+            "hash": "17746f958dc6db62330646f5e770fbabb9148224f8f01496ec71686b6d811b44"
+        },
+        {
+            "date": 1704719103157,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-08-01-19-error.log",
+            "hash": "825196e40d71bad42c92bf7d2b0b8db6c0ff45bcf9e936de2d53ada1ada486f8"
+        },
+        {
+            "date": 1704722632888,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-08-01-20-error.log",
+            "hash": "6647e2cd01022b423cfe3f16156b3b4f5ef651cc00092bf0b2c73da9f6074f1e"
+        }
+    ],
+    "hashType": "sha256"
+}
