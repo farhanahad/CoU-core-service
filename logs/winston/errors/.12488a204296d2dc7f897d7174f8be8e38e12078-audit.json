@@ -159,6 +159,11 @@
             "date": 1704809351876,
             "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-09-01-20-error.log",
             "hash": "da244a63d5d09e7740400ad83f7f1bc68c1459c3fca4fd0d4dc3c3d173d1d6f3"
+        },
+        {
+            "date": 1704823564409,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-10-01-00-error.log",
+            "hash": "bd3a4cff3b7d4f8a0b871b6d74a1fdb6870ff08eda095714245973e473f62f82"
         }
     ],
     "hashType": "sha256"
