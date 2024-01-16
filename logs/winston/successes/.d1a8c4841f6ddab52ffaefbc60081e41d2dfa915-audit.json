@@ -164,6 +164,46 @@
             "date": 1704823564375,
             "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2024-10-01-00-success.log",
             "hash": "e94c5bcb06edc633f05b7e9494ded60e8310307e4a5c5c9cfe6b42c89b004983"
+        },
+        {
+            "date": 1704866893817,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2024-10-01-12-success.log",
+            "hash": "5e4084b0895a7a5390b1a155bf6b5e463ce8ac2470ffd81db0dcb4ffb7a3b973"
+        },
+        {
+            "date": 1705246373153,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2024-14-01-21-success.log",
+            "hash": "392edabb258957878a2cbd1755840e07ac81667a15d4da06e0095a4968db8901"
+        },
+        {
+            "date": 1705321771442,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2024-15-01-18-success.log",
+            "hash": "fc8fe2a9f1a099da0a02ef9b01a4cb06d27acdac34ffd469509311fc2fafb3ad"
+        },
+        {
+            "date": 1705326949454,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2024-15-01-19-success.log",
+            "hash": "b50ac32eee5ed16bdda6d9cb34445868c8763996691992f486a019ed4ccd52bb"
+        },
+        {
+            "date": 1705327233643,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2024-15-01-20-success.log",
+            "hash": "7240338d0848d4844ee0a4e12aff71478f5c990f55dfb78dcd92665a51129609"
+        },
+        {
+            "date": 1705332202445,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2024-15-01-21-success.log",
+            "hash": "d4b6416c8c94e8da755b0be4d2270a8772bfe1a4f333e08ee8e58bba9a4c3d16"
+        },
+        {
+            "date": 1705335267257,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2024-15-01-22-success.log",
+            "hash": "897710e74a878978341f26efe8ce882165597338597bff0b7080de6b353abeaf"
+        },
+        {
+            "date": 1705339762720,
+            "name": "C:\\Users\\Admin\\Desktop\\UMS-Core\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2024-15-01-23-success.log",
+            "hash": "5848405e72e6756d1721581ea53924e1b1f9642d85edd25f064590d6b2b17044"
         }
     ],
     "hashType": "sha256"
