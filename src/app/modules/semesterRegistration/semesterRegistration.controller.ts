@@ -68,7 +68,6 @@ const deleteByIdFromDB = catchAsync(async (req: Request, res: Response) => {
 
 const startMyRegistration = catchAsync(async (req: Request, res: Response) => {
   const user = (req as any).user;
-  console.log(user);
   const result = await SemesterRegistrationService.startMyRegistration(
     user.userId
   );
@@ -96,14 +95,14 @@ const enrollIntoCourse = catchAsync(async (req: Request, res: Response) => {
 
 const withdrawFromCourse = catchAsync(async (req: Request, res: Response) => {
   const user = (req as any).user;
-  const result = await SemesterRegistrationService.withdrawFromCourse(
+  const result = await SemesterRegistrationService.withdrewFromCourse(
     user.userId,
     req.body
   );
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'Student withdraw from successfully',
+    message: 'Student Withdraw from successfully',
     data: result,
   });
 });
@@ -133,19 +132,19 @@ const getMyRegistration = catchAsync(async (req: Request, res: Response) => {
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'My registration data fetched!',
+    message: 'My registration data fatched!',
     data: result,
   });
 });
 
 const startNewSemester = catchAsync(async (req: Request, res: Response) => {
+  // /:id/start-new-semester
   const { id } = req.params;
   const result = await SemesterRegistrationService.startNewSemester(id);
-
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'Semester Started Successfully',
+    message: 'Semester Started Successfully!',
     data: result,
   });
 });

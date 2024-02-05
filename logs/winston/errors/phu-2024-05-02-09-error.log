@@ -1,0 +1,5 @@
+Mon Feb 05 2024 9:52:43 } [PH] error: 
+Invalid `prisma.studentSemesterPayment.findFirst()` invocation:
+
+
+Transaction API error: Transaction already closed: Could not perform operation.
