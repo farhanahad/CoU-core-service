@@ -8,7 +8,7 @@ import {
   facultyRelationalFields,
   facultyRelationalFieldsMapper,
   facultySearchableFields,
-} from './faculty.constant';
+} from './faculty.constants';
 import {
   IFacultyFilterRequest,
   IFacultyMyCourseStudentsRequest,
@@ -190,7 +190,7 @@ const removeCourses = async (
 
 const myCourses = async (
   authUser: {
-    userId?: string;
+    userId: string;
     role: string;
   },
   filter: {
@@ -213,7 +213,7 @@ const myCourses = async (
       offeredCourseClassSchedules: {
         some: {
           faculty: {
-            facultyId: authUser?.userId,
+            facultyId: authUser.userId,
           },
         },
       },

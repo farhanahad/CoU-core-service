@@ -1,14 +1,18 @@
-/* eslint-disable no-prototype-builtins */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { AcademicDepartment, Prisma } from '@prisma/client';
 import { paginationHelpers } from '../../../helpers/paginationHelper';
 import { IGenericResponse } from '../../../interfaces/common';
 import { IPaginationOptions } from '../../../interfaces/pagination';
 import prisma from '../../../shared/prisma';
+import { RedisClient } from '../../../shared/redis';
 import {
+  EVENT_ACADEMIC_DEPARTMENT_CREATED,
+  EVENT_ACADEMIC_DEPARTMENT_DELETED,
+  EVENT_ACADEMIC_DEPARTMENT_UPDATED,
+  academicDepartmentRelationalFields,
   academicDepartmentRelationalFieldsMapper,
   academicDepartmentSearchableFields,
-} from './academicDepartment.constant';
+} from './academicDepartment.contants';
 import { IAcademicDepartmentFilterRequest } from './academicDepartment.interface';
 
 const insertIntoDB = async (
@@ -20,6 +24,14 @@ const insertIntoDB = async (
       academicFaculty: true,
     },
   });
+
+  if (result) {
+    await RedisClient.publish(
+      EVENT_ACADEMIC_DEPARTMENT_CREATED,
+      JSON.stringify(result)
+    );
+  }
+
   return result;
 };
 
@@ -42,13 +54,13 @@ const getAllFromDB = async (
       })),
     });
   }
+
   if (Object.keys(filterData).length > 0) {
     andConditions.push({
       AND: Object.keys(filterData).map(key => {
-        if (academicDepartmentRelationalFieldsMapper.hasOwnProperty(key)) {
-          const relationKey = academicDepartmentRelationalFieldsMapper[key];
+        if (academicDepartmentRelationalFields.includes(key)) {
           return {
-            [relationKey]: {
+            [academicDepartmentRelationalFieldsMapper[key]]: {
               id: (filterData as any)[key],
             },
           };
@@ -62,8 +74,10 @@ const getAllFromDB = async (
       }),
     });
   }
+
   const whereConditions: Prisma.AcademicDepartmentWhereInput =
     andConditions.length > 0 ? { AND: andConditions } : {};
+
   const result = await prisma.academicDepartment.findMany({
     include: {
       academicFaculty: true,
@@ -119,6 +133,12 @@ const updateOneInDB = async (
       academicFaculty: true,
     },
   });
+  if (result) {
+    await RedisClient.publish(
+      EVENT_ACADEMIC_DEPARTMENT_UPDATED,
+      JSON.stringify(result)
+    );
+  }
   return result;
 };
 
@@ -131,8 +151,15 @@ const deleteByIdFromDB = async (id: string): Promise<AcademicDepartment> => {
       academicFaculty: true,
     },
   });
+  if (result) {
+    await RedisClient.publish(
+      EVENT_ACADEMIC_DEPARTMENT_DELETED,
+      JSON.stringify(result)
+    );
+  }
   return result;
 };
+
 export const AcademicDepartmentService = {
   insertIntoDB,
   getAllFromDB,
