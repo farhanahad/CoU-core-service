@@ -31,7 +31,7 @@ const insertIntoDB = async (
       JSON.stringify(result)
     );
   }
-
+  console.log('dept', result);
   return result;
 };
 
